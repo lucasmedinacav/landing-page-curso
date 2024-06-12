@@ -1,492 +1,1113 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
+    <title></title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curso Completo de Desenvolvimento Fullstack Java e Angular</title>
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta id="meta-keywords" name="keywords" content="">
+    <meta id="meta-description" name="description" content="">
+    <!-- <link rel="icon" type="image/x-icon" href="favicon.ico" /> -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" />
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div class="logo">Flycoders</div>
-            <ul>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#course-content">Conteúdo</a></li>
-                <li><a href="#technologies">Tecnologias</a></li>
-                <li><a href="#benefits">Benefícios</a></li>
-                <li><a href="#testimonials">Depoimentos</a></li>
-                <li><a href="#pricing">Preço</a></li>
-                <li><a href="#about-me">Sobre o Instrutor</a></li>
-            </ul>
-            <a href="#signup" class="btn-signup">Inscreva-se</a>
-        </nav>
-    </header>
-    <section id="hero" class="section">
-        <div class="hero-content animate__animated animate__fadeIn">
-            <h1>Transforme sua Carreira com o Curso Completo de Desenvolvimento Fullstack Java e Angular</h1>
-            <p>Aprenda as tecnologias mais demandadas e conquiste as melhores oportunidades no mercado de trabalho.</p>
-            <a href="#signup" class="btn-hero">Quero Me Inscrever</a>
+    <div id="root">
+        <div class="sc-1vrgkll-0 ivoOXx">
+            <button class="sc-1vrgkll-1 dEjDxv"></button>
         </div>
-    </section>
-    <section id="about" class="section">
-        <div class="container">
-            <h2 class="animate__animated animate__fadeInLeft">Por que Este Curso é Diferente?</h2>
-            <p class="about-text">Nosso curso foi projetado para oferecer uma experiência completa e prática, cobrindo
-                desde os fundamentos até as tecnologias mais avançadas. Você aprenderá as melhores práticas do mercado,
-                utilizadas pelas maiores empresas do mundo. Com um conteúdo atualizado e instrutores experientes, nosso
-                curso é o caminho mais rápido e seguro para você se tornar um desenvolvedor Fullstack altamente
-                qualificado.</p>
-            <p class="about-text">Aqui, você não apenas aprenderá a programar, mas também a pensar como um desenvolvedor
-                de ponta, aplicando conceitos de engenharia de software, design patterns e metodologias ágeis. Nosso
-                foco é garantir que você esteja preparado para os desafios reais do mercado de trabalho.</p>
-            <p class="about-text">Além disso, oferecemos um suporte dedicado e uma comunidade ativa, onde você poderá
-                tirar dúvidas e trocar experiências com outros alunos e profissionais da área. Nosso objetivo é
-                transformar a sua carreira e abrir portas para as melhores oportunidades de emprego e projetos.</p>
-            <img src="https://www.rocketseat.com.br/static/images/update/banner.png"
-                alt="Curso Completo de Desenvolvimento Fullstack" class="about-img">
-        </div>
-    </section>
-    <section id="course-content" class="section">
-        <div class="container">
-            <h2 class="animate__animated animate__fadeInLeft">Conteúdo do Curso</h2>
-            <div class="accordion-item">
-                <button class="accordion-button">Fundamentos e Ferramentas</button>
-                <div class="accordion-content">
-                    <ul>
-                        <li>Instalação e configuração do Node.js</li>
-                        <li>Angular CLI</li>
-                        <li>Java JDK 21</li>
-                        <li>Gradle</li>
-                        <li>Docker</li>
-                        <li>Git</li>
-                        <li>IntelliJ</li>
-                        <li>VSCode</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <button class="accordion-button">Bancos de Dados Modernos</button>
-                <div class="accordion-content">
-                    <ul>
-                        <li>MySQL para gerenciamento de dados relacionais</li>
-                        <li>Redis para cache de alta performance</li>
-                        <li>MongoDB como banco de dados NoSQL</li>
-                        <li>NoSQLBooster para administração e consulta de dados</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <button class="accordion-button">Modelagem e Integração de Dados</button>
-                <div class="accordion-content">
-                    <ul>
-                        <li>Modelagem de dados com Firebase</li>
-                        <li>Integração de dados com ElasticSearch</li>
-                        <li>Soluções escaláveis e performáticas</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <button class="accordion-button">Desenvolvimento Avançado com Java e Spring Boot</button>
-                <div class="accordion-content">
-                    <ul>
-                        <li>Programação funcional com Java</li>
-                        <li>Uso de Lombok para simplificação do código</li>
-                        <li>Aplicação de design patterns</li>
-                        <li>Princípios de orientação a objetos</li>
-                        <li>Criação de APIs eficientes e seguras</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <button class="accordion-button">APIs Robustas e Segurança</button>
-                <div class="accordion-content">
-                    <ul>
-                        <li>Autenticação e autorização com Keycloak</li>
-                        <li>Programação reativa com WebFlux</li>
-                        <li>Comunicação em tempo real com WebSockets</li>
-                        <li>Testes e documentação de APIs com Postman</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <button class="accordion-button">Frontend Moderno com Angular</button>
-                <div class="accordion-content">
-                    <ul>
-                        <li>Desenvolvimento frontend com Angular</li>
-                        <li>Criação de interfaces com Angular Material</li>
-                        <li>Gerenciamento de estados reativos com RxJS</li>
-                        <li>Arquitetura de estado escalável com NGRX</li>
-                        <li>Implementação de Auth Guards</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <button class="accordion-button">Inteligência Artificial e Machine Learning</button>
-                <div class="accordion-content">
-                    <ul>
-                        <li>Recomendações de produtos</li>
-                        <li>Chatbots inteligentes</li>
-                        <li>Análise de sentimentos</li>
-                        <li>Utilização de bibliotecas modernas de IA</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <button class="accordion-button">Microserviços e Comunicação Assíncrona</button>
-                <div class="accordion-content">
-                    <ul>
-                        <li>Arquitetura de microserviços com Spring Boot</li>
-                        <li>Comunicação assíncrona com Apache Kafka</li>
-                        <li>Alta disponibilidade e resiliência</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <button class="accordion-button">Segurança e Testes</button>
-                <div class="accordion-content">
-                    <ul>
-                        <li>Práticas avançadas de segurança em APIs</li>
-                        <li>Testes de carga e performance com JMeter</li>
-                        <li>Testes end-to-end com Cypress</li>
-                        <li>Testes unitários e de integração</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <button class="accordion-button">Deploy e Monitoramento</button>
-                <div class="accordion-content">
-                    <ul>
-                        <li>Deploy em ambientes de produção</li>
-                        <li>Orquestração de containers com Docker Compose e Kubernetes</li>
-                        <li>Monitoramento com ELK Stack</li>
-                        <li>Opções de deploy em Heroku, AWS e GCP</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="technologies" class="section">
-        <div class="container">
-            <h2 class="animate__animated animate__fadeInLeft">Tecnologias que Você Vai Aprender</h2>
-            <div class="tech-grid">
-                <div class="tech-item"><img src="https://img.icons8.com/color/96/000000/java-coffee-cup-logo.png"
-                        alt="Java">
-                    <p>Java</p>
-                </div>
-                <div class="tech-item"><img src="https://img.icons8.com/color/96/000000/spring-logo.png" alt="Spring">
-                    <p>Spring</p>
-                </div>
-                <div class="tech-item"><img src="https://img.icons8.com/color/96/000000/javascript.png"
-                        alt="JavaScript">
-                    <p>JavaScript</p>
-                </div>
-                <div class="tech-item"><img src="https://img.icons8.com/color/96/000000/angularjs.png" alt="Angular">
-                    <p>Angular</p>
-                </div>
-                <div class="tech-item"><img src="https://img.icons8.com/color/96/000000/docker.png" alt="Docker">
-                    <p>Docker</p>
-                </div>
-                <div class="tech-item"><img src="https://img.icons8.com/color/96/000000/kubernetes.png"
-                        alt="Kubernetes">
-                    <p>Kubernetes</p>
-                </div>
-                <div class="tech-item"><img src="https://img.icons8.com/color/96/000000/mysql-logo.png" alt="MySQL">
-                    <p>MySQL</p>
-                </div>
-                <div class="tech-item"><img src="https://img.icons8.com/color/96/000000/mongodb.png" alt="MongoDB">
-                    <p>MongoDB</p>
-                </div>
-                <div class="tech-item"><img src="https://img.icons8.com/color/96/000000/redis.png" alt="Redis">
-                    <p>Redis</p>
-                </div>
-                <div class="tech-item"><img src="https://img.icons8.com/color/96/000000/heroku.png" alt="Heroku">
-                    <p>Heroku</p>
-                </div>
-                <div class="tech-item"><img src="https://img.icons8.com/color/96/000000/firebase.png" alt="Firebase">
-                    <p>Firebase</p>
-                </div>
-                <div class="tech-item"><img src="https://img.icons8.com/color/96/000000/elasticsearch.png"
-                        alt="ElasticSearch">
-                    <p>ElasticSearch</p>
-                </div>
-                <div class="tech-item"><img src="https://img.icons8.com/color/96/000000/typescript.png"
-                        alt="Typescript">
-                    <p>Typescript</p>
-                </div>
-                <div class="tech-item"><img src="https://img.icons8.com/color/96/000000/intellij-idea.png"
-                        alt="IntelliJ">
-                    <p>IntelliJ</p>
-                </div>
-                <div class="tech-item"><img src="https://img.icons8.com/color/96/000000/visual-studio-code-2019.png"
-                        alt="VSCode">
-                    <p>VSCode</p>
-                </div>
-                <div class="tech-item"><img src="https://img.icons8.com/color/96/000000/amazon-web-services.png"
-                        alt="AWS">
-                    <p>AWS</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="benefits" class="section">
-        <div class="container">
-            <h2 class="animate__animated animate__fadeInLeft">Benefícios Exclusivos</h2>
-            <div class="benefits-grid">
-                <div class="benefit-item">
-                    <i class="fas fa-laptop-code"></i>
-                    <h3>Aprendizado Prático</h3>
-                    <p>Com aulas práticas e exercícios reais, você vai aprender a aplicar imediatamente o que estudou.
-                        Desenvolva projetos reais que te prepararão para o mercado de trabalho.</p>
-                </div>
-                <div class="benefit-item">
-                    <i class="fas fa-headset"></i>
-                    <h3>Suporte Dedicado</h3>
-                    <p>Nosso time de especialistas está sempre disponível para tirar suas dúvidas e ajudar no que for
-                        preciso. Você nunca estará sozinho em sua jornada de aprendizado.</p>
-                </div>
-                <div class="benefit-item">
-                    <i class="fas fa-certificate"></i>
-                    <h3>Certificado Reconhecido</h3>
-                    <p>Ao concluir o curso, você receberá um certificado que é valorizado pelo mercado de trabalho.
-                        Mostre suas habilidades e conquiste melhores oportunidades de emprego.</p>
-                </div>
-                <div class="benefit-item">
-                    <i class="fas fa-briefcase"></i>
-                    <h3>Preparação para o Mercado</h3>
-                    <p>O curso cobre as tecnologias mais demandadas, aumentando suas chances de conseguir as melhores
-                        vagas. Esteja pronto para atuar nas empresas mais inovadoras e tecnológicas.</p>
-                </div>
-                <div class="benefit-item">
-                    <i class="fas fa-store"></i>
-                    <h3>Portal de Lojas Online</h3>
-                    <p>Crie um portal de lojas online e use o sistema para gerar renda extra vendendo lojas para pessoas
-                        próximas ou até mesmo abrindo a própria loja online.</p>
-                </div>
-                <div class="benefit-item">
-                    <i class="fas fa-user-graduate"></i>
-                    <h3>Mentoria Personalizada</h3>
-                    <p>Nossa mentoria inclui ajuda para montar ou revisar seu currículo, melhorar sua página do
-                        LinkedIn, onde procurar emprego e os próximos passos da carreira.</p>
-                </div>
-                <div class="benefit-item">
-                    <i class="fas fa-users"></i>
-                    <h3>Comunidade Ativa</h3>
-                    <p>Tenha acesso a uma comunidade ativa onde você pode trocar informações, melhorar seu networking e
-                        aprender com outros alunos e profissionais da área.</p>
-                </div>
-                <div class="benefit-item">
-                    <i class="fas fa-brain"></i>
-                    <h3>Conteúdo Atualizado</h3>
-                    <p>Garantimos que todo o conteúdo do curso é atualizado regularmente para refletir as últimas
-                        tendências e tecnologias do mercado.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="comparative" class="section">
-        <div class="container">
-            <h2 class="animate__animated animate__fadeInLeft">Por que Escolher Nosso Curso em vez de uma Faculdade EAD?
-            </h2>
-            <div class="comparative-grid">
-                <div class="comparative-item">
-                    <h3>Faculdade EAD</h3>
-                    <ul>
-                        <li>Demora anos para cobrir tecnologias emergentes.</li>
-                        <li>Custo elevado e retorno de investimento lento.</li>
-                        <li>Foco em teoria e pouca prática.</li>
-                        <li>Currículo muitas vezes desatualizado.</li>
-                        <li>Falta de suporte e mentoria individualizada.</li>
-                        <li>Baixa flexibilidade para conciliar estudos e trabalho.</li>
-                    </ul>
-                </div>
-                <div class="comparative-item">
-                    <h3>Nosso Curso</h3>
-                    <ul>
-                        <li>Conteúdo atualizado com as últimas tendências.</li>
-                        <li>Custo acessível e retorno de investimento rápido.</li>
-                        <li>Foco na prática com exercícios reais.</li>
-                        <li>Currículo dinâmico e sempre atualizado.</li>
-                        <li>Suporte e mentoria individualizada.</li>
-                        <li>Flexibilidade para estudar no seu ritmo.</li>
-                        <li>Acesso a uma comunidade ativa de alunos e profissionais.</li>
-                        <li>Possibilidade de gerar renda extra com o sistema de lojas online.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="market" class="section">
-        <div class="container">
-            <h2 class="animate__animated animate__fadeInLeft">Mercado e Salários</h2>
-            <p>Desenvolvedores Fullstack estão entre os profissionais mais procurados e bem pagos do mercado. Segundo <a
-                    href="https://www.glassdoor.com/Salaries/fullstack-developer-salary-SRCH_KO0,19.htm"
-                    target="_blank">pesquisas recentes</a>, os salários podem variar entre R$6.000 a R$15.000 no Brasil,
-                dependendo da experiência e das habilidades. A demanda por esses profissionais está crescendo
-                exponencialmente, o que significa que investir neste curso é uma decisão estratégica para garantir seu
-                lugar no mercado de trabalho.</p>
-            <p>Java é uma das linguagens de programação mais populares e demandadas no mercado, com mais de 9 milhões de
-                desenvolvedores em todo o mundo. É a linguagem principal para muitas empresas de grande porte,
-                destacando-se pela robustez, desempenho e segurança.</p>
-            <p>Angular é um dos frameworks mais utilizados para desenvolvimento frontend. Empresas como Google,
-                Microsoft e Upwork utilizam Angular em seus projetos devido à sua capacidade de criar aplicações
-                escaláveis e de alta performance. A demanda por desenvolvedores Angular está crescendo rapidamente, com
-                muitas vagas de emprego e ótimos salários.</p>
-            <div class="market-stats">
-                <div class="stat-item">
-                    <h3>Salários</h3>
-                    <p>Desenvolvedores Fullstack: R$6.000 a R$15.000</p>
-                    <p>Desenvolvedores Java: R$7.000 a R$18.000</p>
-                    <p>Desenvolvedores Angular: R$6.500 a R$16.000</p>
-                </div>
-                <div class="stat-item">
-                    <h3>Vagas de Emprego</h3>
-                    <p>Java: 100.000+ vagas abertas no LinkedIn</p>
-                    <p>Angular: 60.000+ vagas abertas no LinkedIn</p>
-                    <p>Fullstack: 80.000+ vagas abertas no LinkedIn</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="testimonials" class="section">
-        <div class="container">
-            <h2 class="animate__animated animate__fadeInLeft">O Que Nossos Alunos Dizem</h2>
-            <div class="testimonials-grid">
-                <div class="testimonial card animate__animated animate__fadeInUp">
-                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="João Silva" class="avatar">
-                    <p>"Este curso mudou minha vida. Consegui um emprego na área em apenas três meses após concluir!"
-                    </p>
-                    <div class="rating">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+        <div class="sc-lvczw7-0 cOKCgB">
+            <div class="components-section">
+                <header>
+                    <div class="sc-1ly7lpo-0 boKZAu">
+                        <div id="comp-178041de78e" class="sc-1ly7lpo-1 jHCZrL"></div>
+                        <div id="comp-0" class="sc-1ly7lpo-1 jHCZrL"></div>
+                        <div class="sc-1ubamz9-0 lnAUZU sc-zyxusa-0 PXsbt">
+                            <div class="sc-1ubamz9-7 hieKBu"><svg width="786px" height="648px" viewBox="0 0 786 648"
+                                    version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <defs>
+                                        <linearGradient x1="50%" y1="0%" x2="50%" y2="96.0553649%"
+                                            id="linearGradient-1">
+                                            <stop stop-color="#D822F7" offset="0%"></stop>
+                                            <stop stop-color="#773DC9" offset="100%"></stop>
+                                        </linearGradient>
+                                    </defs>
+                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <path
+                                            d="M785.237155,482.407894 C764.964306,504.836666 741.977695,524.72992 716.35936,541.257831 C662.494165,576.402238 597.084584,593.633047 532.72927,590.82585 C481.864884,588.23629 432.60752,563.681039 381.739167,564.741167 C327.842562,565.454504 296.339819,608.054334 250.611893,629.364127 C190.559939,656.997499 116.018325,653.355614 62.4417325,612.958545 C14.4360005,576.766626 -11.0294229,511.051333 4.58987277,452.944522 C21.1764897,391.464261 75.6694843,348.676676 128.914813,313.876071 C182.160143,279.075466 239.878755,245.036008 270.501122,189.145072 C301.91704,132.112534 298.248879,63.5131205 311.991425,0 L785.237155,0 L785.237155,482.407894 Z M231.428667,145.5886 C217.578902,155.682497 197.391108,156.386722 183.071859,146.997051 C147.860592,124.46184 169.691578,75.4008067 206.076554,69.5322621 C247.62585,62.7247503 262.179841,123.053389 231.428667,145.5886 Z"
+                                            fill="url(#linearGradient-1)"></path>
+                                    </g>
+                                </svg></div>
+                            <div class="sc-1ubamz9-6 jdmEtq"><svg width="495px" height="422px" viewBox="0 0 495 422"
+                                    version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.1">
+                                        <path
+                                            d="M480.278538,174.958299 C465.95929,151.511322 445.067271,132.446958 422.766801,115.5739 C402.344266,100.015625 383.330182,93.222576 370.184642,69.9947299 C361.264454,54.4364556 354.691684,37.344267 343.189336,23.3199071 C318.776191,-6.04359651 276.053186,-2.53750653 241.546144,6.22771841 C149.762106,29.4555645 69.0109327,89.0590942 23.4710266,167.069596 C11.7339374,187.229614 2.10952429,208.923545 0.231590018,231.932261 C-1.41160247,254.940976 5.63065105,279.045345 23.2362849,295.04188 C45.3020126,314.982767 78.4006041,318.707988 104.926426,333.170609 C131.686989,347.852361 150.23159,372.394991 173.001543,392.335877 C195.771496,412.057633 227.696379,427.835038 257.039102,418.193291 C281.686989,410.085458 296.006238,386.857612 314.550839,369.765423 C343.893562,342.593226 384.738632,329.88365 421.123609,311.695808 C457.508585,293.288835 492.954595,263.706201 494.832529,225.139211 C495.771496,207.389631 489.433468,190.078312 480.278538,174.958299 Z"
+                                            id="Path-Copy-2" fill="#FF95DD" fill-rule="nonzero"></path>
+                                    </g>
+                                </svg></div>
+                            <div class="sc-et7lxk-0 iZASuI navbar">
+                                <div type="header"
+                                    class="WM_GLOBAL_secondary-font header-nav-bar sc-et7lxk-1 kpLzNN navbar-container">
+                                    <div class="logoContainer sc-et7lxk-2 cGsQUV">
+                                        <figure>
+                                            <div class="link-wrapper "><a class=" link" href="/">
+                                                    <figure class="lazy-figure sc-13kgj0f-0 imHWAS logo-figure"><img
+                                                            color="default" width="115"
+                                                            class=" logo-image sc-e662y6-2 bxTfpr sc-e662y6-2 bxTfpr"
+                                                            alt="Navbar logo" sizes="[object Object]"
+                                                            src="https://hosting.renderforestsites.com/24597087/1204121/media/25d33a4f9b16e9569e9a85dc64ea48bd.png">
+                                                    </figure>
+                                                </a></div>
+                                        </figure>
+                                    </div>
+                                    <div class="porjectLinksDesktop sc-1akbv98-2 bxeGYB">
+                                        <nav class="sc-1akbv98-1 eTcvjB">
+                                            <div class="sc-1akbv98-0 bMFRqG servicos">
+                                                <div class="link-wrapper "><a id="header_link_0" class=" link"
+                                                        href="#servicos">Serviços</a></div>
+                                            </div>
+                                            <div class="sc-1akbv98-0 bMFRqG lancamento">
+                                                <div class="link-wrapper "><a id="header_link_1" class=" link"
+                                                        href="#contador">Lançamento</a></div>
+                                            </div>
+                                            <div class="sc-1akbv98-0 bMFRqG grade">
+                                                <div class="link-wrapper "><a id="header_link_2" class=" link"
+                                                        href="#grade">O Curso</a></div>
+                                            </div>
+                                            <div class="sc-1akbv98-0 bMFRqG newsletter">
+                                                <div class="link-wrapper "><a id="header_link_4" class=" link"
+                                                        href="#newsletter">Newsletter</a></div>
+                                            </div>
+                                            <div class="sc-1akbv98-0 bMFRqG redes">
+                                                <div class="link-wrapper "><a id="header_link_3" class=" link"
+                                                        href="#footer">Redes sociais</a></div>
+                                            </div>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sc-1ubamz9-1 cgOdvt sc-ewl9y2-0 gADKnw">
+                                <div class="sc-1ubamz9-2 gTfZNf">
+                                    <h1 class="sc-1ubamz9-3 WM_GLOBAL_heading54 sm-word-wrap sc-15za8y8-0 hpezed">Decole
+                                        Sua Carreira com a Flycoders</h1>
+                                    <h2 class="sc-1ubamz9-4 WM_GLOBAL_heading32 sm-word-wrap sc-15za8y8-0 jiWmYj">
+                                        Conquiste o que sempre quis</h2>
+                                    <p class="sc-1ubamz9-5 WM_GLOBAL_paragraph sm-word-wrap sc-15za8y8-0 cWifqq">Domine
+                                        as habilidades de programação mais demandadas e prepare-se para as carreiras do
+                                        amanhã. Junte-se à nossa comunidade de desenvolvedores e inicie sua jornada de
+                                        aprendizado.
+                                    </p>
+                                    <div class="buttons-block sc-1xk50io-0 itzSYI">
+                                        <div class="sc-1xk50io-1 isaKnF">
+                                            <div class="WM_GLOBAL_secondary-font buttons-wrapper">
+                                                <div class="sc-1xk50io-2 dClCsY">
+                                                    <div class="link-wrapper "><a class=" link" target="_blank"
+                                                            rel="noopener noreferrer"
+                                                            href="https://www.instagram.com/flycoders/">SEGUE NO
+                                                            INSTA</a></div>
+                                                </div>
+                                                <div class="sc-1xk50io-2 fKFxuM">
+                                                    <div class="link-wrapper "><a class=" link" target="_blank"
+                                                            rel="noopener noreferrer"
+                                                            href="https://wa.me/5511999991907">FALE CONOSCO</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="WM_GLOBAL_secondary-font buttons-wrapper sc-jutf6p-0 hijxOr">
+                                                <div class="sc-1xk50io-2 dClCsY">
+                                                    <div class="link-wrapper "><a class=" link" target="_blank"
+                                                            rel="noopener noreferrer"
+                                                            href="https://www.instagram.com/flycoders/">SEGUE NO
+                                                            INSTA</a></div>
+                                                </div>
+                                                <div class="sc-1xk50io-2 fKFxuM">
+                                                    <div class="link-wrapper "><a class=" link" target="_blank"
+                                                            rel="noopener noreferrer"
+                                                            href="https://wa.me/5511999991907">FALE CONOSCO</a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sc-1ubamz9-8 dzTrpl">
+                                    <div class="sc-1ubamz9-9 ilMJeE"><svg width="692px" height="495px"
+                                            viewBox="0 0 692 495" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs>
+                                                <linearGradient x1="50%" y1="14.907241%" x2="50%" y2="96.0553649%"
+                                                    id="linearGradient-1">
+                                                    <stop stop-color="#D822F7" offset="0%"></stop>
+                                                    <stop stop-color="#773DC9" offset="100%"></stop>
+                                                </linearGradient>
+                                            </defs>
+                                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                <g id="header-24-768x1024"
+                                                    transform="translate(-30.000000, -466.000000)"
+                                                    fill="url(#linearGradient-1)">
+                                                    <path
+                                                        d="M32.6021678,711.129528 C23.4431225,671.377937 38.8785164,626.105659 72.3462727,602.705487 C107.78849,577.973189 154.775556,579.489982 197.629709,584.615359 C240.483863,589.740736 285.330715,597.212566 325.628844,581.507036 C374.11904,562.735083 404.350327,514.452003 448.934963,488.062592 C509.977491,451.389592 593.141126,462.126887 647.705076,507.743507 C702.269026,553.360127 728.110898,628.197273 720.443264,698.986178 C713.057696,769.584778 674.799289,835.176431 621.923706,882.743299 C563.038824,936.004904 482.638716,968.92402 403.724305,959.010749 C360.398016,953.793814 318.887319,934.228794 286.666555,904.705172 C261.36208,881.177832 246.475803,846.930675 219.577008,825.299185 C191.255726,802.166828 156.298609,810.578008 123.236922,801.716553 C79.9722312,789.896486 42.8217982,755.496841 32.6021678,711.129528 Z"
+                                                        id="Path"></path>
+                                                </g>
+                                            </g>
+                                        </svg></div>
+                                    <div color="dark" class="notebook-header sc-1ubamz9-12 fmMwak">
+                                        <div class="sc-1ubamz9-13 eYbTBf">
+                                            <div class="LazyLoad is-visible">
+                                                <figure class="lazy-figure sc-13kgj0f-0 imHWAS"><img alt="Mockup"
+                                                        sizes="[object Object]"
+                                                        src="https://hosting.renderforestsites.com/24597087/1204121/media/d2468f08de3d419b57a33a2ee26a6b69.png"
+                                                        class="  img-loaded sc-1ubamz9-11 AuHNm sc-1ubamz9-11 AuHNm"
+                                                        style="">
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <h4>João Silva</h4>
-                </div>
-                <div class="testimonial card animate__animated animate__fadeInUp">
-                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Maria Oliveira" class="avatar">
-                    <p>"A qualidade do conteúdo é incrível. As aulas são práticas e direto ao ponto. Recomendo a todos!"
-                    </p>
-                    <div class="rating">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
+                </header>
+                <section id="foguete">
+                    <div class="sc-1ly7lpo-0 boKZAu">
+                        <div id="comp-1781382a0c7" class="sc-1ly7lpo-1 jHCZrL"></div>
+                        <div id="comp-1" class="sc-1ly7lpo-1 jHCZrL"></div>
+                        <div class="sc-1mf61cf-0 dZSDya sc-zyxusa-0 PXsbt">
+                            <div class="sc-1mf61cf-1 dZbsNo sc-ewl9y2-0 klOQRe">
+                                <div class="sc-1mf61cf-4 jhTIbi">
+                                    <h1 class="sc-1mf61cf-2 WM_GLOBAL_heading sm-word-wrap sc-15za8y8-0 gSVoHZ">Decole
+                                        com a Flycoders!</h1>
+                                    <p class="sc-1mf61cf-3 WM_GLOBAL_paragraph sm-word-wrap sc-15za8y8-0 cWyhhP">
+                                        Transforme sua paixão por tecnologia em uma carreira de sucesso.</p>
+                                    <div class="link-section sc-vh21zo-1 YSXlM dClCsY">
+                                        <div class="link-wrapper ">
+                                            <a class="WM_GLOBAL_secondary-font learn-more-link link" target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="https://www.instagram.com/flycoders/">Acesse</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <h4>Maria Oliveira</h4>
-                </div>
-                <div class="testimonial card animate__animated animate__fadeInUp">
-                    <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="Lucas Fernandes" class="avatar">
-                    <p>"Aprendi mais em três meses deste curso do que em dois anos de faculdade. Vale cada centavo!"</p>
-                    <div class="rating">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                </section>
+                <section id="servicos">
+                    <div class="sc-1ly7lpo-0 boKZAu">
+                        <div id="comp-19009d4aa06" class="sc-1ly7lpo-1 jHCZrL"></div>
+                        <div id="comp-2" class="sc-1ly7lpo-1 jHCZrL"></div>
+                        <div class="sc-1hhvvf6-0 fBHgjD sc-zyxusa-0 PXsbt">
+                            <div class="sc-1hhvvf6-11 coIHAB">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="569" height="602.205" viewBox="0 0 569 602.205">
+                                    <defs>
+                                        <linearGradient id="a" x1="0.5" y1="1" x2="0.5"
+                                            gradientUnits="objectBoundingBox">
+                                            <stop stop-color="#D822F7" offset="0%"></stop>
+                                            <stop stop-color="#773DC9" offset="100%"></stop>
+                                        </linearGradient>
+                                    </defs>
+                                    <path class="a"
+                                        d="M-2560.074,12181.428v588.248s819.463,95.58,491.553-273.583S-2560.074,12181.428-2560.074,12181.428Z"
+                                        transform="translate(2560.074 -12178.596)"></path>
+                                </svg>
+                            </div>
+                            <div class="sc-1hhvvf6-12 ihPdmB">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="534.35" height="578.895" viewBox="0 0 534.35 578.895">
+                                    <defs>
+                                        <style>
+                                            .a {
+                                                opacity: 0.097;
+                                                fill: url(#a);
+                                            }
+                                        </style>
+                                        <linearGradient id="a" x1="0.5" y1="1" x2="0.5"
+                                            gradientUnits="objectBoundingBox">
+                                            <stop stop-color="#D822F7" offset="0%"></stop>
+                                            <stop stop-color="#773DC9" offset="100%"></stop>
+                                        </linearGradient>
+                                    </defs>
+                                    <g class="a" transform="translate(-831.65 -71.018)">
+                                        <path class="b"
+                                            d="M-2072.073,12692.256v-504.125s-702.809-81.912-421.579,234.457S-2072.073,12692.256-2072.073,12692.256Z"
+                                            transform="translate(3438.073 -12044.77)"></path>
+                                        <path class="b"
+                                            d="M63.547,68.265c13.5-7.361,13.5-54.84,0-63.306S-26.471-5.327,9.55,34.4,50.047,75.625,63.547,68.265Z"
+                                            transform="translate(831.65 143.973) rotate(-82)"></path>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="sc-1hhvvf6-1 jZlDHQ sc-ewl9y2-0 klOQRe">
+                                <h1 class="sc-1hhvvf6-2 WM_GLOBAL_heading42 sm-word-wrap sc-15za8y8-0 dmpVlF">Nossos
+                                    serviços</h1>
+                                <p class="sc-1hhvvf6-3 WM_GLOBAL_paragraph18 sm-word-wrap sc-15za8y8-0 fYJQcO">
+                                    Oferecemos serviços de alta qualidade e suporte contínuo para ajudar você a alcançar
+                                    seus objetivos em programação.</p>
+                                <div class="buttons-block sc-1xk50io-0 itzSYI">
+                                    <div class="sc-1xk50io-1 isaKnF">
+                                        <div class="WM_GLOBAL_secondary-font buttons-wrapper">
+                                            <div class="sc-1xk50io-2 dClCsY">
+                                                <div class="link-wrapper ">
+                                                    <a class=" link" target="_blank" rel="noopener noreferrer"
+                                                        href="https://www.instagram.com/flycoders/">COMECE JÁ</a>
+                                                </div>
+                                            </div>
+                                            <div class="sc-1xk50io-2 fKFxuM">
+                                                <div class="link-wrapper ">
+                                                    <a class=" link" target="_blank" rel="noopener noreferrer"
+                                                        href="https://wa.me/5511999991907">CONTATE-NOS</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="WM_GLOBAL_secondary-font buttons-wrapper sc-jutf6p-0 hijxOr">
+                                            <div class="sc-1xk50io-2 dClCsY">
+                                                <div class="link-wrapper ">
+                                                    <a class=" link" target="_blank" rel="noopener noreferrer"
+                                                        href="https://www.instagram.com/flycoders/">COMECE JÁ</a>
+                                                </div>
+                                            </div>
+                                            <div class="sc-1xk50io-2 fKFxuM">
+                                                <div class="link-wrapper ">
+                                                    <a class=" link" target="_blank" rel="noopener noreferrer"
+                                                        href="https://wa.me/5511999991907">CONTATE-NOS</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sc-1hhvvf6-6 itodSP">
+                                    <div class="sc-1hhvvf6-4 hwqzJw">
+                                        <article class="sc-1hhvvf6-5 dZpzhi">
+                                            <div class="sc-1hhvvf6-9 bjlEXi"></div>
+                                            <div class="sc-1hhvvf6-10 jBGMda">
+                                                <h2
+                                                    class="sc-1hhvvf6-7 WM_GLOBAL_heading20 sm-word-wrap sc-15za8y8-0 gcYNeh">
+                                                    Curso Fullstack</h2>
+                                                <p
+                                                    class="sc-1hhvvf6-8 WM_GLOBAL_paragraph14 sm-word-wrap sc-15za8y8-0 fUClxG">
+                                                    "Prepare-se para o lançamento do nosso curso mais esperado, com
+                                                    conteúdo de alta qualidade e ensinamentos práticos que transformarão
+                                                    sua carreira.</p>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="sc-1hhvvf6-4 ftUdvv">
+                                        <article class="sc-1hhvvf6-5 dZpzhi">
+                                            <div class="sc-1hhvvf6-9 bjlEXi"></div>
+                                            <div class="sc-1hhvvf6-10 jBGMda">
+                                                <h2
+                                                    class="sc-1hhvvf6-7 WM_GLOBAL_heading20 sm-word-wrap sc-15za8y8-0 gcYNeh">
+                                                    Mentoria Personalizada</h2>
+                                                <p
+                                                    class="sc-1hhvvf6-8 WM_GLOBAL_paragraph14 sm-word-wrap sc-15za8y8-0 fUClxG">
+                                                    Receba orientação de especialistas para acelerar seu aprendizado e
+                                                    superar desafios.</p>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="sc-1hhvvf6-4 elGtgJ">
+                                        <article class="sc-1hhvvf6-5 dZpzhi">
+                                            <div class="sc-1hhvvf6-9 bjlEXi"></div>
+                                            <div class="sc-1hhvvf6-10 jBGMda">
+                                                <h2
+                                                    class="sc-1hhvvf6-7 WM_GLOBAL_heading20 sm-word-wrap sc-15za8y8-0 gcYNeh">
+                                                    Comunidade Colaborativa</h2>
+                                                <p
+                                                    class="sc-1hhvvf6-8 WM_GLOBAL_paragraph14 sm-word-wrap sc-15za8y8-0 fUClxG">
+                                                    Participe de uma comunidade vibrante e colabore com outros
+                                                    desenvolvedores para aprender e crescer juntos.</p>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="sc-1hhvvf6-4 JqnZl">
+                                        <article class="sc-1hhvvf6-5 dZpzhi">
+                                            <div class="sc-1hhvvf6-9 bjlEXi"></div>
+                                            <div class="sc-1hhvvf6-10 jBGMda">
+                                                <h2
+                                                    class="sc-1hhvvf6-7 WM_GLOBAL_heading20 sm-word-wrap sc-15za8y8-0 gcYNeh">
+                                                    Conteúdo Exclusivo</h2>
+                                                <p
+                                                    class="sc-1hhvvf6-8 WM_GLOBAL_paragraph14 sm-word-wrap sc-15za8y8-0 fUClxG">
+                                                    Acesse tutoriais, vídeos e artigos exclusivos que complementam seu
+                                                    aprendizado e mantêm você atualizado.</p>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="sc-1hhvvf6-4 iLWasv">
+                                        <article class="sc-1hhvvf6-5 dZpzhi">
+                                            <div class="sc-1hhvvf6-9 bjlEXi"></div>
+                                            <div class="sc-1hhvvf6-10 jBGMda">
+                                                <h2
+                                                    class="sc-1hhvvf6-7 WM_GLOBAL_heading20 sm-word-wrap sc-15za8y8-0 gcYNeh">
+                                                    Certificação Reconhecida</h2>
+                                                <p
+                                                    class="sc-1hhvvf6-8 WM_GLOBAL_paragraph14 sm-word-wrap sc-15za8y8-0 fUClxG">
+                                                    Obtenha certificações valorizadas pelo mercado, comprovando suas
+                                                    habilidades e conhecimentos.</p>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="sc-1hhvvf6-4 ENwXj">
+                                        <article class="sc-1hhvvf6-5 dZpzhi">
+                                            <div class="sc-1hhvvf6-9 bjlEXi"></div>
+                                            <div class="sc-1hhvvf6-10 jBGMda">
+                                                <h2
+                                                    class="sc-1hhvvf6-7 WM_GLOBAL_heading20 sm-word-wrap sc-15za8y8-0 gcYNeh">
+                                                    Suporte Contínuo</h2>
+                                                <p
+                                                    class="sc-1hhvvf6-8 WM_GLOBAL_paragraph14 sm-word-wrap sc-15za8y8-0 fUClxG">
+                                                    Conte com nosso suporte dedicado para responder suas dúvidas e
+                                                    ajudar em sua jornada de aprendizado.</p>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <h4>Lucas Fernandes</h4>
-                </div>
+                </section>
+                <section id="contador">
+                    <div class="sc-1ly7lpo-0 boKZAu">
+                        <div id="comp-19009e790f8" class="sc-1ly7lpo-1 jHCZrL"></div>
+                        <div id="comp-5" class="sc-1ly7lpo-1 jHCZrL"></div>
+                        <div class="sc-341fq7-0 dERYbK sc-zyxusa-0 PXsbt">
+                            <div class="sc-341fq7-1 fgGYh sc-ewl9y2-0 gADKnw contadores-painel">
+                                <div class="sc-341fq7-2 hsTYcc">
+                                    <h1 class="sc-341fq7-3 WM_GLOBAL_heading42 sm-word-wrap sc-15za8y8-0 gfgdXA">
+                                        Desbloqueie Seu Potencial na Tecnologia!</h1>
+                                    <p class="sc-341fq7-4 WM_GLOBAL_paragraph18 sm-word-wrap sc-15za8y8-0 iDWoKG">
+                                        Em breve lançaremos o curso que vai transformar a sua carreira.
+                                        Na Flycoders, você aprenderá as habilidades para
+                                        enfrentar os desafios do mercado de tecnologia.
+                                        Não perca essa chance de revolucionar sua vida profissional</p>
+                                </div>
+                                <div class="sc-341fq7-5 pCpfC">
+                                    <div class="sc-341fq7-10 hESASE">
+                                        <div class="formatedDate sc-341fq7-7 jizQHI">
+                                            <p
+                                                class="WM_GLOBAL_primary-font countdown-time-value sc-341fq7-8 cSIcEg days-count ">
+                                                <span>141</span>
+                                            </p>
+                                            <p
+                                                class="sc-341fq7-9 WM_GLOBAL_paragraph18 sm-word-wrap sc-15za8y8-0 flVIYV">
+                                                days</p>
+                                        </div>
+                                        <div class="time-dots sc-341fq7-11 iXvaSS">
+                                            <span class="sc-341fq7-12 bVzjUD">:</span>
+                                        </div>
+                                        <div class="formatedDate sc-341fq7-7 jizQHI">
+                                            <p
+                                                class="WM_GLOBAL_primary-font countdown-time-value sc-341fq7-8 cSIcEg hours-count">
+                                                <span>22</span>
+                                            </p>
+                                            <p
+                                                class="sc-341fq7-9 WM_GLOBAL_paragraph18 sm-word-wrap sc-15za8y8-0 flVIYV">
+                                                hours</p>
+                                        </div>
+                                        <div class="time-dots sc-341fq7-11 iXvaSS">
+                                            <span class="sc-341fq7-12 bVzjUD">:</span>
+                                        </div>
+                                        <div class="formatedDate sc-341fq7-7 jizQHI">
+                                            <p
+                                                class="WM_GLOBAL_primary-font countdown-time-value sc-341fq7-8 cSIcEg minutes-count">
+                                                <span>23</span>
+                                            </p>
+                                            <p
+                                                class="sc-341fq7-9 WM_GLOBAL_paragraph18 sm-word-wrap sc-15za8y8-0 flVIYV">
+                                                minutes</p>
+                                        </div>
+                                        <div class="time-dots sc-341fq7-11 iXvaSS">
+                                            <span class="sc-341fq7-12 bVzjUD">:</span>
+                                        </div>
+                                        <div class="formatedDate sc-341fq7-7 jizQHI">
+                                            <p
+                                                class="WM_GLOBAL_primary-font countdown-time-value sc-341fq7-8 cSIcEg seconds-count">
+                                                <span>22</span>
+                                            </p>
+                                            <p
+                                                class="sc-341fq7-9 WM_GLOBAL_paragraph18 sm-word-wrap sc-15za8y8-0 flVIYV">
+                                                seconds</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="grade">
+                    <div class="sc-1ly7lpo-0 boKZAu">
+                        <div id="comp-19009ef9fd0" class="sc-1ly7lpo-1 jHCZrL"></div>
+                        <div id="comp-4" class="sc-1ly7lpo-1 jHCZrL"></div>
+                        <div class="sc-1g8il8w-0 fLRntO sc-zyxusa-0 PXsbt">
+                            <div class="sc-ewl9y2-0 klOQRe">
+                                <div class="sc-1g8il8w-1 bUIiiy">
+                                    <h1
+                                        class="sc-1g8il8w-2 WM_GLOBAL_heading42 sm-word-wrap sc-15za8y8-0 jAQcnw title-grade">
+                                        Agora voce se tornará um fullstack, acredite!</h1>
+                                    <span class="sc-1g8il8w-3 WM_GLOBAL_paragraph18 sc-15za8y8-0 iRDzAj">O
+                                        curso que revoluciona o aprendizado em tecnologia. Desenvolvido a partir de
+                                        extensivas pesquisas de mercado e pela expertise de um desenvolvedor com quase
+                                        15 anos de experiência. Prepare-se para uma jornada única que transformará suas
+                                        habilidades e conhecimento!</span>
+                                </div>
+                                <div class="sc-1g8il8w-4 iZKHZj">
+                                    <div class="sc-1g8il8w-5 ghkCrV">
+                                        <div class="sc-1g8il8w-14 guejCl step-number">01</div>
+                                        <div class="sc-1g8il8w-6 eIeNrE">
+                                            <div class="sc-1g8il8w-7 hykaID">
+                                                <div class="sc-1g8il8w-12 hJiKCs">
+                                                    <div class="sc-1g8il8w-11 kcJZBR">
+                                                        <div color="white" data-name="glyph-server-complexity-3"
+                                                            class="sc-1mehu68-0 fIcwFS"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                height="32" viewBox="0 0 32 32">
+                                                                <path
+                                                                    d="M19.2 4.267h-6.4A2.133 2.133 0 0010.667 6.4v19.2c0 1.178.955 2.133 2.133 2.133h6.4a2.133 2.133 0 002.133-2.133V6.4A2.133 2.133 0 0019.2 4.267zm-3.2 19.2a1.067 1.067 0 110-2.133 1.067 1.067 0 010 2.133zm1.067-8.534h-2.133a1.067 1.067 0 110-2.134h2.133a1.067 1.067 0 110 2.134zm0-4.266h-2.133a1.067 1.067 0 110-2.134h2.133a1.067 1.067 0 110 2.134zM29.867 6.4H25.6a2.133 2.133 0 00-2.133 2.133v14.933c0 1.178.955 2.133 2.133 2.133h4.267A2.133 2.133 0 0032 23.466V8.533A2.133 2.133 0 0029.867 6.4zm-2.134 10.667a1.067 1.067 0 110-2.133 1.067 1.067 0 010 2.133zm0-4.267a1.067 1.067 0 110-2.133 1.067 1.067 0 010 2.133zM6.4 6.4H2.133A2.133 2.133 0 000 8.533v14.933c0 1.178.955 2.133 2.133 2.133H6.4a2.133 2.133 0 002.133-2.133V8.533A2.133 2.133 0 006.4 6.4zM4.267 17.067a1.067 1.067 0 110-2.133 1.067 1.067 0 010 2.133zm0-4.267a1.067 1.067 0 110-2.133 1.067 1.067 0 010 2.133z">
+                                                                </path>
+                                                            </svg></div>
+                                                    </div>
+                                                </div>
+                                                <div class="sc-1g8il8w-13 dKzZme">
+                                                    <h2
+                                                        class="sc-1g8il8w-8 WM_GLOBAL_heading20 sm-word-wrap sc-15za8y8-0 hYdHxz">
+                                                        Java e Backend Development
+                                                    </h2>
+                                                    <p
+                                                        class="sc-1g8il8w-9 WM_GLOBAL_paragraph18 sm-word-wrap sc-15za8y8-0 bPvARI">
+                                                        Descubra como Java pode transformar suas habilidades de
+                                                        desenvolvimento backend!</p>
+                                                </div>
+                                            </div>
+                                            <p
+                                                class="sc-1g8il8w-10 WM_GLOBAL_paragraph18 sm-word-wrap sc-15za8y8-0 gAesjI">
+                                                Aprenda a utilizar Java 21 para desenvolver aplicações de backend
+                                                robustas e seguras, explorando suas principais funcionalidades e
+                                                benefícios.</p>
+                                        </div>
+                                    </div>
+                                    <div class="sc-1g8il8w-5 ghkCrV">
+                                        <div class="sc-1g8il8w-14 guejCl step-number">02</div>
+                                        <div class="sc-1g8il8w-6 eIeNrE">
+                                            <div class="sc-1g8il8w-7 hykaID">
+                                                <div class="sc-1g8il8w-12 hJiKCs">
+                                                    <div class="sc-1g8il8w-11 kcJZBR">
+                                                        <div color="white" data-name="glyph-network-complexity-3"
+                                                            class="sc-1mehu68-0 fIcwFS"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                height="32" viewBox="0 0 32 32">
+                                                                <path
+                                                                    d="M31.401 20.267a15.62 15.62 0 000-8.533h-7.02a59.856 59.856 0 010 8.533h7.02zM7.619 11.733H.599a15.414 15.414 0 000 8.533h7.02a59.856 59.856 0 010-8.533zM9.945 22.4a36.609 36.609 0 002.052 9.072c2.631.711 5.394.711 8.025 0a36.598 36.598 0 002.052-9.072H9.944zM22.248 11.733H9.753a59.856 59.856 0 000 8.533h12.495a59.856 59.856 0 000-8.533zM22.055 9.6A36.591 36.591 0 0020.013.528a15.363 15.363 0 00-8.025 0A36.581 36.581 0 009.946 9.6h12.109zM24.188 9.6h6.461a16.016 16.016 0 00-8.086-8.168A43.648 43.648 0 0124.188 9.6zM24.188 22.4a43.744 43.744 0 01-1.625 8.168 16.09 16.09 0 008.086-8.168h-6.461zM7.812 22.4H1.341a16.016 16.016 0 008.086 8.168A44.53 44.53 0 017.812 22.4zM7.812 9.6a43.744 43.744 0 011.625-8.168A16.03 16.03 0 001.34 9.6h6.471z">
+                                                                </path>
+                                                            </svg></div>
+                                                    </div>
+                                                </div>
+                                                <div class="sc-1g8il8w-13 dKzZme">
+                                                    <h2
+                                                        class="sc-1g8il8w-8 WM_GLOBAL_heading20 sm-word-wrap sc-15za8y8-0 hYdHxz">
+                                                        Microsserviços com Spring Boot</h2>
+                                                    <p
+                                                        class="sc-1g8il8w-9 WM_GLOBAL_paragraph18 sm-word-wrap sc-15za8y8-0 bPvARI">
+                                                        Construa microsserviços escaláveis e mantenha seu código
+                                                        organizado!</p>
+                                                </div>
+                                            </div>
+                                            <p
+                                                class="sc-1g8il8w-10 WM_GLOBAL_paragraph18 sm-word-wrap sc-15za8y8-0 gAesjI">
+                                                Entenda a arquitetura de microsserviços e como implementar APIs RESTful
+                                                com Spring Boot, garantindo escalabilidade e manutenção eficiente.</p>
+                                        </div>
+                                    </div>
+                                    <div class="sc-1g8il8w-5 ghkCrV">
+                                        <div class="sc-1g8il8w-14 guejCl step-number">03</div>
+                                        <div class="sc-1g8il8w-6 eIeNrE">
+                                            <div class="sc-1g8il8w-7 hykaID">
+                                                <div class="sc-1g8il8w-12 hJiKCs">
+                                                    <div class="sc-1g8il8w-11 kcJZBR">
+                                                        <div color="white" data-name="glyph-security"
+                                                            class="sc-1mehu68-0 fIcwFS"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                height="32" viewBox="0 0 32 32">
+                                                                <path
+                                                                    d="M16 1.313l12 5.375v8c0 7.375-5.125 14.313-12 16-6.875-1.688-12-8.625-12-16v-8zM16 16v11.938C20.938 26.375 24.625 21.5 25.313 16H16zm0 0V4.25L6.687 8.375V16H16z">
+                                                                </path>
+                                                            </svg></div>
+                                                    </div>
+                                                </div>
+                                                <div class="sc-1g8il8w-13 dKzZme">
+                                                    <h2
+                                                        class="sc-1g8il8w-8 WM_GLOBAL_heading20 sm-word-wrap sc-15za8y8-0 hYdHxz">
+                                                        Autenticação e Autorização com Keycloak</h2>
+                                                    <p
+                                                        class="sc-1g8il8w-9 WM_GLOBAL_paragraph18 sm-word-wrap sc-15za8y8-0 bPvARI">
+                                                        Proteja suas aplicações com as melhores práticas de segurança!
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p
+                                                class="sc-1g8il8w-10 WM_GLOBAL_paragraph18 sm-word-wrap sc-15za8y8-0 gAesjI">
+                                                Implemente sistemas de autenticação e autorização seguros utilizando
+                                                Keycloak, JWT e Spring Security, protegendo suas aplicações contra
+                                                acessos não autorizados.</p>
+                                        </div>
+                                    </div>
+                                    <div class="sc-1g8il8w-5 ghkCrV">
+                                        <div class="sc-1g8il8w-14 guejCl step-number">04</div>
+                                        <div class="sc-1g8il8w-6 eIeNrE">
+                                            <div class="sc-1g8il8w-7 hykaID">
+                                                <div class="sc-1g8il8w-12 hJiKCs">
+                                                    <div class="sc-1g8il8w-11 kcJZBR">
+                                                        <div color="white" data-name="glyph-website"
+                                                            class="sc-1mehu68-0 fIcwFS"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                height="32" viewBox="0 0 32 32">
+                                                                <path
+                                                                    d="M7.36 13.333h9.333V22H7.36v-8.667zm12 .667h5.267v2.667H19.36V14zm0 4.667h5.267v2.667H19.36v-2.667zm7.307-13.334A2.667 2.667 0 0129.334 8v16a2.667 2.667 0 01-2.667 2.667H5.334A2.667 2.667 0 012.667 24V8a2.667 2.667 0 012.667-2.667h21.333zm-16 2.16a.667.667 0 100 1.334.667.667 0 000-1.334zM8 7.493a.667.667 0 100 1.334.667.667 0 000-1.334zm-2.667 0a.667.667 0 100 1.334.667.667 0 000-1.334zm22 16.507V10.667H4.666V24c0 .368.298.667.667.667h21.333a.667.667 0 00.667-.667z">
+                                                                </path>
+                                                            </svg></div>
+                                                    </div>
+                                                </div>
+                                                <div class="sc-1g8il8w-13 dKzZme">
+                                                    <h2
+                                                        class="sc-1g8il8w-8 WM_GLOBAL_heading20 sm-word-wrap sc-15za8y8-0 hYdHxz">
+                                                        Desenvolvimento Frontend com Angular 17</h2>
+                                                    <p
+                                                        class="sc-1g8il8w-9 WM_GLOBAL_paragraph18 sm-word-wrap sc-15za8y8-0 bPvARI">
+                                                        Crie interfaces incríveis e responsivas<br></p>
+                                                </div>
+                                            </div>
+                                            <p
+                                                class="sc-1g8il8w-10 WM_GLOBAL_paragraph18 sm-word-wrap sc-15za8y8-0 gAesjI">
+                                                Aprenda a configurar e utilizar bancos de dados MySQL e MongoDB,
+                                                entendendo suas diferenças e como aproveitá-los em aplicações reais.</p>
+                                        </div>
+                                    </div>
+                                    <div class="sc-1g8il8w-5 ghkCrV">
+                                        <div class="sc-1g8il8w-14 guejCl step-number">05</div>
+                                        <div class="sc-1g8il8w-6 eIeNrE">
+                                            <div class="sc-1g8il8w-7 hykaID">
+                                                <div class="sc-1g8il8w-12 hJiKCs">
+                                                    <div class="sc-1g8il8w-11 kcJZBR">
+                                                        <div color="white" data-name="glyph-cpu-complexity-3"
+                                                            class="sc-1mehu68-0 fIcwFS"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="19"
+                                                                height="32" viewBox="0 0 19 32">
+                                                                <path
+                                                                    d="M17.067 0H2.134A2.133 2.133 0 00.001 2.133v28.8C.001 31.522.478 32 1.068 32h17.067c.589 0 1.067-.477 1.067-1.067v-28.8A2.133 2.133 0 0017.069 0zM9.6 26.667a3.2 3.2 0 110-6.4 3.2 3.2 0 110 6.4zm5.333-16c0 .589-.477 1.067-1.067 1.067H5.333a1.067 1.067 0 01-1.067-1.067V6.4c0-.589.477-1.067 1.067-1.067h8.533c.589 0 1.067.477 1.067 1.067v4.267z">
+                                                                </path>
+                                                            </svg></div>
+                                                    </div>
+                                                </div>
+                                                <div class="sc-1g8il8w-13 dKzZme">
+                                                    <h2
+                                                        class="sc-1g8il8w-8 WM_GLOBAL_heading20 sm-word-wrap sc-15za8y8-0 hYdHxz">
+                                                        Integração com Bancos de Dados Relacionais e NoSQL</h2>
+                                                    <p
+                                                        class="sc-1g8il8w-9 WM_GLOBAL_paragraph18 sm-word-wrap sc-15za8y8-0 bPvARI">
+                                                        Gerencie dados de forma eficiente e segura com MySQL e MongoDB!
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p
+                                                class="sc-1g8il8w-10 WM_GLOBAL_paragraph18 sm-word-wrap sc-15za8y8-0 gAesjI">
+                                                The place where you practice matters. So do a bit of research online.
+                                                Check what styles of yoga the studios offer? Make sure to explore the
+                                                styles carefully.</p>
+                                        </div>
+                                    </div>
+                                    <div class="sc-1g8il8w-5 ghkCrV">
+                                        <div class="sc-1g8il8w-14 guejCl step-number">06</div>
+                                        <div class="sc-1g8il8w-6 eIeNrE">
+                                            <div class="sc-1g8il8w-7 hykaID">
+                                                <div class="sc-1g8il8w-12 hJiKCs">
+                                                    <div class="sc-1g8il8w-11 kcJZBR">
+                                                        <div color="white" data-name="glyph-flower-complexity-3"
+                                                            class="sc-1mehu68-0 fIcwFS"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                height="32" viewBox="0 0 32 32">
+                                                                <path d="M16.01 15.208H16a2.023 2.023 0 10.011 0z">
+                                                                </path>
+                                                                <path
+                                                                    d="M16.02 13.806H16a3.413 3.413 0 10.02 0h-.001zm-.04 6.125a2.702 2.702 0 01.01-5.404h.031a2.702 2.702 0 01-.02 5.404h-.021.001z">
+                                                                </path>
+                                                                <path
+                                                                    d="M19.251 14.832c3.901-4.724 4.165-6.776 4.165-7.822 0-1.646-.792-3.2-4.582-5.049-.792-.406-1.544-.792-2.011-1.189a1.234 1.234 0 00-1.647.001l.001-.001c-.467.396-1.219.782-2.011 1.189-1.148.589-2.448 1.26-3.363 2.194-.721.742-1.067 1.443-1.178 2.225 3.109 1.026 6.075 5.74 6.756 6.857 1.747-.295 3.139.599 3.87 1.595z">
+                                                                </path>
+                                                                <path
+                                                                    d="M14.75 13.389c-4.246-6.806-6.959-6.583-7.365-6.583-1.991 0-3.596 1.595-5.018 2.997-.63.63-1.239 1.229-1.757 1.554a1.25 1.25 0 00-.515 1.553l-.003-.008c.762 1.666.416 6.491 3.17 7.914.762-.904 3.037-2.895 8.757-4.226a4.037 4.037 0 012.704-3.192l.028-.008z">
+                                                                </path>
+                                                                <path
+                                                                    d="M11.967 17.219c-9.702 2.469-8.828 5.76-8.665 6.918s2.215 5.313 2.367 5.912c.134.557.628.965 1.217.965h.002s1.666.112 2.438.234c.924.142 4.389 1.026 6.329-.965-1.92-2.672-1.554-8.178-1.443-9.448a4.06 4.06 0 01-2.245-3.616v-.001z">
+                                                                </path>
+                                                                <path
+                                                                    d="M14.761 21.059c-.64 8.3 2.133 9.681 2.194 9.732.742.498 1.697.742 2.875.742.955 0 1.92-.142 2.844-.284a11.518 11.518 0 012.343-.234h.1-.005.002a1.25 1.25 0 001.215-.957l.002-.009c.071-.264.569-1.371 1.209-2.692.823-1.727 1.737-3.87.772-5.76-3.281.955-8.229-1.077-9.417-1.575-1.818 1.768-3.738 1.158-4.135 1.036z">
+                                                                </path>
+                                                                <path
+                                                                    d="M31.39 11.357c-.518-.325-1.128-.924-1.757-1.554-1.422-1.402-3.027-2.997-5.018-2.997a5.078 5.078 0 00-.574.043l.026-.003c0 2.916-3.251 6.959-4.49 8.503.284.559.975 2.184-.295 4.206.781.342 1.786.708 2.814 1.021l.214.056c2.966.894 4.754.833 5.882.427 2.022-.589 2.743-3.474 3.17-5.658.234-1.239.467-2.286.549-2.499a1.246 1.246 0 00-.513-1.541l-.006-.003z">
+                                                                </path>
+                                                            </svg></div>
+                                                    </div>
+                                                </div>
+                                                <div class="sc-1g8il8w-13 dKzZme">
+                                                    <h2
+                                                        class="sc-1g8il8w-8 WM_GLOBAL_heading20 sm-word-wrap sc-15za8y8-0 hYdHxz">
+                                                        Gerenciamento de Estado e Operações Reativas</h2>
+                                                    <p
+                                                        class="sc-1g8il8w-9 WM_GLOBAL_paragraph18 sm-word-wrap sc-15za8y8-0 bPvARI">
+                                                        Mantenha suas aplicações organizadas e reativas com NgRx e RxJS!
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p
+                                                class="sc-1g8il8w-10 WM_GLOBAL_paragraph18 sm-word-wrap sc-15za8y8-0 gAesjI">
+                                                Utilize NgRx para gerenciamento de estado no Angular e RxJS para
+                                                operações reativas, criando aplicações mais eficientes e de fácil
+                                                manutenção.</p>
+                                        </div>
+                                    </div>
+                                    <div class="sc-1g8il8w-5 ghkCrV">
+                                        <div class="sc-1g8il8w-14 guejCl step-number">07</div>
+                                        <div class="sc-1g8il8w-6 eIeNrE">
+                                            <div class="sc-1g8il8w-7 hykaID">
+                                                <div class="sc-1g8il8w-12 hJiKCs">
+                                                    <div class="sc-1g8il8w-11 kcJZBR">
+                                                        <div color="white" data-name="glyph-pages"
+                                                            class="sc-1mehu68-0 fIcwFS"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                height="32" viewBox="0 0 32 32">
+                                                                <path
+                                                                    d="M25.313 4c1.438 0 2.688 1.25 2.688 2.688v8h-6.688l1.375-5.375-5.375 1.375V4h8zm-2.625 18.688l-1.375-5.375h6.688v8c0 1.438-1.25 2.688-2.688 2.688h-8v-6.688zm-12-5.375l-1.375 5.375 5.375-1.375v6.688h-8C5.25 28.001 4 26.751 4 25.313v-8h6.688zM4 6.688C4 5.25 5.25 4 6.688 4h8v6.688L9.313 9.313l1.375 5.375H4v-8z">
+                                                                </path>
+                                                            </svg></div>
+                                                    </div>
+                                                </div>
+                                                <div class="sc-1g8il8w-13 dKzZme">
+                                                    <h2
+                                                        class="sc-1g8il8w-8 WM_GLOBAL_heading20 sm-word-wrap sc-15za8y8-0 hYdHxz">
+                                                        Desenvolvimento de Páginas com Strapi CMS</h2>
+                                                    <p
+                                                        class="sc-1g8il8w-9 WM_GLOBAL_paragraph18 sm-word-wrap sc-15za8y8-0 bPvARI">
+                                                        Simplifique a gestão de conteúdo</p>
+                                                </div>
+                                            </div>
+                                            <p
+                                                class="sc-1g8il8w-10 WM_GLOBAL_paragraph18 sm-word-wrap sc-15za8y8-0 gAesjI">
+                                                Explore o uso do Strapi CMS para gerenciar conteúdo dinâmico, como
+                                                páginas de produto e blogs, integrando facilmente com sua aplicação
+                                                frontend.</p>
+                                        </div>
+                                    </div>
+                                    <div class="sc-1g8il8w-5 ghkCrV">
+                                        <div class="sc-1g8il8w-14 guejCl step-number">08</div>
+                                        <div class="sc-1g8il8w-6 eIeNrE">
+                                            <div class="sc-1g8il8w-7 hykaID">
+                                                <div class="sc-1g8il8w-12 hJiKCs">
+                                                    <div class="sc-1g8il8w-11 kcJZBR">
+                                                        <div color="white" data-name="glyph-search"
+                                                            class="sc-1mehu68-0 fIcwFS"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                height="32" viewBox="0 0 32 32">
+                                                                <path
+                                                                    d="M12.688 18.688c3.313 0 6-2.688 6-6s-2.688-6-6-6-6 2.688-6 6 2.688 6 6 6zm8 0l6.625 6.625-2 2-6.625-6.625v-1.063l-.375-.375c-1.5 1.313-3.5 2.063-5.625 2.063C7.875 21.313 4 17.5 4 12.688S7.875 4 12.688 4s8.625 3.875 8.625 8.688c0 2.125-.75 4.125-2.063 5.625l.375.375h1.063z">
+                                                                </path>
+                                                            </svg></div>
+                                                    </div>
+                                                </div>
+                                                <div class="sc-1g8il8w-13 dKzZme">
+                                                    <h2
+                                                        class="sc-1g8il8w-8 WM_GLOBAL_heading20 sm-word-wrap sc-15za8y8-0 hYdHxz">
+                                                        Otimização de Busca com ElasticSearch</h2>
+                                                    <p
+                                                        class="sc-1g8il8w-9 WM_GLOBAL_paragraph18 sm-word-wrap sc-15za8y8-0 bPvARI">
+                                                        Ofereça buscas rápidas e precisas&nbsp;</p>
+                                                </div>
+                                            </div>
+                                            <p
+                                                class="sc-1g8il8w-10 WM_GLOBAL_paragraph18 sm-word-wrap sc-15za8y8-0 gAesjI">
+                                                Implemente sistemas de busca avançados e otimizados utilizando
+                                                ElasticSearch, melhorando a experiência do usuário com resultados
+                                                rápidos e relevantes.</p>
+                                        </div>
+                                    </div>
+                                    <div class="sc-1g8il8w-5 ghkCrV">
+                                        <div class="sc-1g8il8w-14 guejCl step-number">09</div>
+                                        <div class="sc-1g8il8w-6 eIeNrE">
+                                            <div class="sc-1g8il8w-7 hykaID">
+                                                <div class="sc-1g8il8w-12 hJiKCs">
+                                                    <div class="sc-1g8il8w-11 kcJZBR">
+                                                        <div color="white" data-name="glyph-file_upload"
+                                                            class="sc-1mehu68-0 fIcwFS"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                height="32" viewBox="0 0 32 32">
+                                                                <path
+                                                                    d="M6.688 24h18.625v2.688H6.688V24zM12 21.313v-8H6.687L16 4l9.313 9.313H20v8h-8z">
+                                                                </path>
+                                                            </svg></div>
+                                                    </div>
+                                                </div>
+                                                <div class="sc-1g8il8w-13 dKzZme">
+                                                    <h2
+                                                        class="sc-1g8il8w-8 WM_GLOBAL_heading20 sm-word-wrap sc-15za8y8-0 hYdHxz">
+                                                        Armazenamento e Upload de Imagens com Firebase e Amazon S3</h2>
+                                                    <p
+                                                        class="sc-1g8il8w-9 WM_GLOBAL_paragraph18 sm-word-wrap sc-15za8y8-0 bPvARI">
+                                                        Gerencie imagens com eficiência e segurança!</p>
+                                                </div>
+                                            </div>
+                                            <p
+                                                class="sc-1g8il8w-10 WM_GLOBAL_paragraph18 sm-word-wrap sc-15za8y8-0 gAesjI">
+                                                Gerencie o upload e armazenamento de imagens de forma eficiente
+                                                utilizando Firebase e Amazon S3, garantindo alta disponibilidade e
+                                                desempenho.</p>
+                                        </div>
+                                    </div>
+                                    <div class="sc-1g8il8w-5 ghkCrV">
+                                        <div class="sc-1g8il8w-14 guejCl step-number">10</div>
+                                        <div class="sc-1g8il8w-6 eIeNrE">
+                                            <div class="sc-1g8il8w-7 hykaID">
+                                                <div class="sc-1g8il8w-12 hJiKCs">
+                                                    <div class="sc-1g8il8w-11 kcJZBR">
+                                                        <div color="white"
+                                                            data-name="glyph-businessperformance-complexity-3"
+                                                            class="sc-1mehu68-0 fIcwFS"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                height="32" viewBox="0 0 32 32">
+                                                                <path
+                                                                    d="M30.933 29.867h-28.8v-28.8a1.067 1.067 0 10-2.134 0v29.867c0 .589.477 1.067 1.067 1.067h29.867a1.067 1.067 0 100-2.134z">
+                                                                </path>
+                                                                <path
+                                                                    d="M7.467 19.2c.284 0 .559-.112.762-.305L23.467 3.637v1.697a1.067 1.067 0 102.134 0V1.067C25.601.478 25.124 0 24.534 0h-4.267a1.067 1.067 0 100 2.134h1.697L6.706 17.372a1.068 1.068 0 00-.01 1.503l.01.01c.203.203.477.315.762.315z">
+                                                                </path>
+                                                                <path
+                                                                    d="M21.333 9.6v18.133h6.4V9.6c0-.589-.477-1.067-1.067-1.067h-4.267c-.589 0-1.067.477-1.067 1.067zM13.867 17.067c-.589 0-1.067.477-1.067 1.067v9.6h6.4v-9.6c0-.589-.477-1.067-1.067-1.067h-4.267zM10.667 22.4c0-.589-.477-1.067-1.067-1.067H5.333c-.589 0-1.067.477-1.067 1.067v5.333h6.4V22.4z">
+                                                                </path>
+                                                            </svg></div>
+                                                    </div>
+                                                </div>
+                                                <div class="sc-1g8il8w-13 dKzZme">
+                                                    <h2
+                                                        class="sc-1g8il8w-8 WM_GLOBAL_heading20 sm-word-wrap sc-15za8y8-0 hYdHxz">
+                                                        Testes, Qualidade e Desempenho</h2>
+                                                    <p
+                                                        class="sc-1g8il8w-9 WM_GLOBAL_paragraph18 sm-word-wrap sc-15za8y8-0 bPvARI">
+                                                        Assegure a qualidade e o desempenho da sua aplicação com
+                                                        ferramentas de ponta!</p>
+                                                </div>
+                                            </div>
+                                            <p
+                                                class="sc-1g8il8w-10 WM_GLOBAL_paragraph18 sm-word-wrap sc-15za8y8-0 gAesjI">
+                                                Realize testes end-to-end com Cypress, testes unitários com JUnit e
+                                                Mockito, e garanta a qualidade do código com SonarQube, além de otimizar
+                                                o desempenho com JMeter e práticas de SEO.</p>
+                                        </div>
+                                    </div>
+                                    <div class="sc-1g8il8w-5 ghkCrV">
+                                        <div class="sc-1g8il8w-14 guejCl step-number">11</div>
+                                        <div class="sc-1g8il8w-6 eIeNrE">
+                                            <div class="sc-1g8il8w-7 hykaID">
+                                                <div class="sc-1g8il8w-12 hJiKCs">
+                                                    <div class="sc-1g8il8w-11 kcJZBR">
+                                                        <div color="white" data-name="glyph-swap_vertical_circle"
+                                                            class="sc-1mehu68-0 fIcwFS"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                height="32" viewBox="0 0 32 32">
+                                                                <path
+                                                                    d="M23.313 20H20v-5.313h-2.688V20h-3.313l4.688 4.688zM8.688 12h3.313v5.313h2.688V12h3.313l-4.688-4.688zM16 2.688c7.375 0 13.313 5.938 13.313 13.313S23.375 29.314 16 29.314 2.687 23.376 2.687 16.001 8.625 2.688 16 2.688z">
+                                                                </path>
+                                                            </svg></div>
+                                                    </div>
+                                                </div>
+                                                <div class="sc-1g8il8w-13 dKzZme">
+                                                    <h2
+                                                        class="sc-1g8il8w-8 WM_GLOBAL_heading20 sm-word-wrap sc-15za8y8-0 hYdHxz">
+                                                        DevOps e Integração Contínua</h2>
+                                                    <p
+                                                        class="sc-1g8il8w-9 WM_GLOBAL_paragraph18 sm-word-wrap sc-15za8y8-0 bPvARI">
+                                                        Automatize seus deploys e mantenha suas aplicações sempre
+                                                        atualizadas com DevOps!
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p
+                                                class="sc-1g8il8w-10 WM_GLOBAL_paragraph18 sm-word-wrap sc-15za8y8-0 gAesjI">
+                                                Aprenda a usar Docker e Kubernetes para a containerização e orquestração
+                                                de suas aplicações, além de configurar pipelines de CI/CD com GitHub
+                                                Actions e Jenkins.</p>
+                                        </div>
+                                    </div>
+                                    <div class="sc-1g8il8w-5 ghkCrV">
+                                        <div class="sc-1g8il8w-14 guejCl step-number">12</div>
+                                        <div class="sc-1g8il8w-6 eIeNrE">
+                                            <div class="sc-1g8il8w-7 hykaID">
+                                                <div class="sc-1g8il8w-12 hJiKCs">
+                                                    <div class="sc-1g8il8w-11 kcJZBR">
+                                                        <div color="white" data-name="glyph-lg-monitor-complexity-3"
+                                                            class="sc-1mehu68-0 fIcwFS"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                height="32" viewBox="0 0 32 32">
+                                                                <path
+                                                                    d="M31.451 4.267H.568a.57.57 0 00-.569.569v17.727a.57.57 0 00.569.569h14.568v4.003h-4.419a.142.142 0 00-.142.142v.142c0 .157.127.284.284.284H21.14a.284.284 0 00.284-.284v-.142a.142.142 0 00-.142-.142h-4.429v-4.003h14.568a.57.57 0 00.569-.569V4.836a.527.527 0 00-.526-.569h-.012.001zm-.447 17.838H1.015v-1.016h29.989zm0-15.807H1.015V5.282h29.989z">
+                                                                </path>
+                                                            </svg></div>
+                                                    </div>
+                                                </div>
+                                                <div class="sc-1g8il8w-13 dKzZme">
+                                                    <h2
+                                                        class="sc-1g8il8w-8 WM_GLOBAL_heading20 sm-word-wrap sc-15za8y8-0 hYdHxz">
+                                                        Segurança e Monitoramento Avançado</h2>
+                                                    <p
+                                                        class="sc-1g8il8w-9 WM_GLOBAL_paragraph18 sm-word-wrap sc-15za8y8-0 bPvARI">
+                                                        Garanta a segurança e o monitoramento eficiente das suas
+                                                        aplicações!</p>
+                                                </div>
+                                            </div>
+                                            <p
+                                                class="sc-1g8il8w-10 WM_GLOBAL_paragraph18 sm-word-wrap sc-15za8y8-0 gAesjI">
+                                                Implemente práticas avançadas de segurança para proteger suas APIs
+                                                contra ataques comuns e configure ferramentas de monitoramento como ELK
+                                                Stack e Prometheus/Grafana.</p>
+                                        </div>
+                                    </div>
+                                    <div class="sc-1g8il8w-5 ghkCrV">
+                                        <div class="sc-1g8il8w-14 guejCl step-number">13</div>
+                                        <div class="sc-1g8il8w-6 eIeNrE">
+                                            <div class="sc-1g8il8w-7 hykaID">
+                                                <div class="sc-1g8il8w-12 hJiKCs">
+                                                    <div class="sc-1g8il8w-11 kcJZBR">
+                                                        <div color="white" data-name="glyph-mobile"
+                                                            class="sc-1mehu68-0 fIcwFS"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                height="32" viewBox="0 0 32 32">
+                                                                <path
+                                                                    d="M21.333 3.778H9.926a.815.815 0 00-.815.815v22.815c0 .45.365.815.815.815h11.407c.45 0 .815-.365.815-.815V4.593a.815.815 0 00-.815-.815zm0-2.445c1.8 0 3.259 1.459 3.259 3.259v22.815c0 1.8-1.459 3.259-3.259 3.259H9.926a3.259 3.259 0 01-3.259-3.259V4.592c0-1.8 1.459-3.259 3.259-3.259h11.407zM15.63 24.148a1.63 1.63 0 110 3.26 1.63 1.63 0 010-3.26zm2.037-19.555a.407.407 0 110 .814h-4.074a.407.407 0 110-.814h4.074z">
+                                                                </path>
+                                                            </svg></div>
+                                                    </div>
+                                                </div>
+                                                <div class="sc-1g8il8w-13 dKzZme">
+                                                    <h2
+                                                        class="sc-1g8il8w-8 WM_GLOBAL_heading20 sm-word-wrap sc-15za8y8-0 hYdHxz">
+                                                        Desenvolvimento de Progressive Web Apps (PWA)</h2>
+                                                    <p
+                                                        class="sc-1g8il8w-9 WM_GLOBAL_paragraph18 sm-word-wrap sc-15za8y8-0 bPvARI">
+                                                        Proporcione uma experiência de usuário superior com PWAs!</p>
+                                                </div>
+                                            </div>
+                                            <p
+                                                class="sc-1g8il8w-10 WM_GLOBAL_paragraph18 sm-word-wrap sc-15za8y8-0 gAesjI">
+                                                Transforme suas aplicações web em PWAs, oferecendo uma experiência
+                                                similar a aplicativos nativos, com funcionalidades como caching offline
+                                                e push notifications.</p>
+                                        </div>
+                                    </div>
+                                    <div class="sc-1g8il8w-5 ghkCrV">
+                                        <div class="sc-1g8il8w-14 guejCl step-number">14</div>
+                                        <div class="sc-1g8il8w-6 eIeNrE">
+                                            <div class="sc-1g8il8w-7 hykaID">
+                                                <div class="sc-1g8il8w-12 hJiKCs">
+                                                    <div class="sc-1g8il8w-11 kcJZBR">
+                                                        <div color="white" data-name="glyph-brain-complexity-3"
+                                                            class="sc-1mehu68-0 fIcwFS"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                height="32" viewBox="0 0 32 32">
+                                                                <path
+                                                                    d="M11.733 23.467V25.6a1.067 1.067 0 11-2.134 0v-2.286a4.26 4.26 0 01-3.2-4.114 1.067 1.067 0 112.134 0c0 1.178.955 2.133 2.133 2.133h4.267V1.066a5.208 5.208 0 00-3.2-1.067c-5.669 0-10.413 5.506-11.5 12.8h6.166v-2.133a3.2 3.2 0 013.2-3.2 1.067 1.067 0 110 2.134c-.59 0-1.067.477-1.067 1.067V12.8h1.067a3.2 3.2 0 013.2 3.2 1.067 1.067 0 11-2.134 0c0-.589-.477-1.067-1.067-1.067h-9.6V16c0 8.818 5.262 16 11.733 16a5.208 5.208 0 003.2-1.067v-7.467h-3.2zM20.267 14.933c.589 0 1.067.477 1.067 1.067s.477 1.067 1.067 1.067h9.6V16c0-8.818-5.262-16-11.733-16a5.187 5.187 0 00-3.2 1.067v7.467h3.2V6.401a1.067 1.067 0 112.134 0v2.286a4.27 4.27 0 013.2 4.114 1.067 1.067 0 11-2.134 0 2.133 2.133 0 00-2.133-2.133h-4.267v20.267a5.208 5.208 0 003.2 1.067c5.669 0 10.413-5.506 11.5-12.8h-6.166v2.133a3.2 3.2 0 01-3.2 3.2 1.067 1.067 0 110-2.134c.589 0 1.067-.477 1.067-1.067v-2.133h-1.067a3.2 3.2 0 01-3.2-3.2c0-.589.477-1.067 1.067-1.067z">
+                                                                </path>
+                                                            </svg></div>
+                                                    </div>
+                                                </div>
+                                                <div class="sc-1g8il8w-13 dKzZme">
+                                                    <h2
+                                                        class="sc-1g8il8w-8 WM_GLOBAL_heading20 sm-word-wrap sc-15za8y8-0 hYdHxz">
+                                                        Machine Learning e IA Aplicados</h2>
+                                                    <p
+                                                        class="sc-1g8il8w-9 WM_GLOBAL_paragraph18 sm-word-wrap sc-15za8y8-0 bPvARI">
+                                                        Leve suas aplicações a um novo patamar com machine learning e
+                                                        IA!</p>
+                                                </div>
+                                            </div>
+                                            <p
+                                                class="sc-1g8il8w-10 WM_GLOBAL_paragraph18 sm-word-wrap sc-15za8y8-0 gAesjI">
+                                                Incorpore técnicas de machine learning e inteligência artificial em suas
+                                                aplicações, como recomendações de produtos e análise de sentimentos.</p>
+                                        </div>
+                                    </div>
+                                    <div class="sc-1g8il8w-5 ghkCrV">
+                                        <div class="sc-1g8il8w-14 guejCl step-number">15</div>
+                                        <div class="sc-1g8il8w-6 eIeNrE">
+                                            <div class="sc-1g8il8w-7 hykaID">
+                                                <div class="sc-1g8il8w-12 hJiKCs">
+                                                    <div class="sc-1g8il8w-11 kcJZBR">
+                                                        <div color="white" data-name="glyph-cached"
+                                                            class="sc-1mehu68-0 fIcwFS"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                height="32" viewBox="0 0 32 32">
+                                                                <path
+                                                                    d="M8 16h4l-5.313 5.313L1.312 16h4c0-5.875 4.813-10.688 10.688-10.688 2.063 0 4.063.625 5.688 1.688L19.75 8.938C18.625 8.313 17.375 8 16 8c-4.438 0-8 3.563-8 8zm17.313-5.312l5.375 5.313h-4c0 5.875-4.813 10.688-10.688 10.688-2.063 0-4.063-.625-5.688-1.688l1.938-1.938c1.125.625 2.375.938 3.75.938 4.438 0 8-3.563 8-8h-4z">
+                                                                </path>
+                                                            </svg></div>
+                                                    </div>
+                                                </div>
+                                                <div class="sc-1g8il8w-13 dKzZme">
+                                                    <h2
+                                                        class="sc-1g8il8w-8 WM_GLOBAL_heading20 sm-word-wrap sc-15za8y8-0 hYdHxz">
+                                                        Cache com Redis</h2>
+                                                    <p
+                                                        class="sc-1g8il8w-9 WM_GLOBAL_paragraph18 sm-word-wrap sc-15za8y8-0 bPvARI">
+                                                        Acelere suas aplicações com a eficiência do Redis!</p>
+                                                </div>
+                                            </div>
+                                            <p
+                                                class="sc-1g8il8w-10 WM_GLOBAL_paragraph18 sm-word-wrap sc-15za8y8-0 gAesjI">
+                                                Otimize a performance da sua aplicação utilizando Redis para caching de
+                                                dados, reduzindo a latência e melhorando a experiência do usuário.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="newsletter">
+                    <div class="sc-1ly7lpo-0 boKZAu">
+                        <div id="comp-1900a0ad485" class="sc-1ly7lpo-1 jHCZrL"></div>
+                        <div id="comp-6" class="sc-1ly7lpo-1 jHCZrL"></div>
+                        <div class="sc-1jbo34n-0 bkqxkL sc-zyxusa-0 PXsbt">
+                            <div class="sc-1jbo34n-1 kDCQvP sc-ewl9y2-0 klOQRe">
+                                <div class="email-content sc-1jbo34n-2 fQTt">
+                                    <h1 class="sc-1jbo34n-4 WM_GLOBAL_heading sc-15za8y8-0 bWrcbC">Se
+                                        inscreva em nossa Newsletter!</h1>
+                                    <p class="sc-1jbo34n-5 WM_GLOBAL_paragraph sc-15za8y8-0 YVpu">Receba
+                                        conteúdos exclusivos e saiba em primeira mão nossa pré inscrição do curso</p>
+                                </div>
+                                <div class="subscribe-form-wrap sc-1jbo34n-3 kNntsj">
+                                    <form>
+                                        <div class="wm-email-input-wrapper sc-elfgzc-6 dhMfxc">
+                                            <input type="text" value="" placeholder="Preencha seu email"
+                                                class="wm-email-input WM_GLOBAL_secondary-font sc-elfgzc-1 gETdgP"
+                                                aria-label="Email input" />
+                                        </div>
+                                        <button
+                                            class="WM_GLOBAL_secondary-font wm-email-btn sc-elfgzc-0 dpFqkK">INSCREVA-SE</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <footer id="footer">
+                    <div class="sc-1ly7lpo-0 boKZAu">
+                        <div id="comp-19009d421f4" class="sc-1ly7lpo-1 jHCZrL"></div>
+                        <div id="comp-7" class="sc-1ly7lpo-1 jHCZrL"></div>
+                        <div class="sc-mqfmd8-0 kSjFPY">
+                            <div class="sc-ewl9y2-0 klOQRe">
+                                <div class="sc-mqfmd8-1 iuFNVf">
+                                    <div class="sc-mqfmd8-3 biVqkk">
+                                        <div class="sc-mqfmd8-6 htNTiC painel-infos-footer">
+                                            <div class="logo-wrapper sc-zvqm0o-0 gMPYOa">
+                                                <figure class="lazy-figure sc-13kgj0f-0 imHWAS logo-footer">
+                                                    <img width="115"
+                                                        class=" logo-image img-loaded sc-e662y6-2 bxTfpr sc-e662y6-2 bxTfpr"
+                                                        alt="Footer logo" sizes="[object Object]"
+                                                        src="https://hosting.renderforestsites.com/24597087/1204121/media/b18272b9aa214ecac0ddbc92eac43e07.png" />
+                                                </figure>
+                                            </div>
+                                            <p
+                                                class="sc-mqfmd8-2 WM_GLOBAL_paragraph sm-word-wrap sc-15za8y8-0 dBZmsU footer-info">
+                                                A Flycoders é uma marca inovadora dedicada a transformar o aprendizado
+                                                em tecnologia. Com uma abordagem prática e focada em resultados,
+                                                oferecemos cursos e conteúdos desenvolvidos por especialistas com vasta
+                                                experiência no mercado.</p>
+                                        </div>
+                                    </div>
+                                    <div class="sc-mqfmd8-4 ilHDnM">
+                                        <div class="socials-block sc-1y8vywq-0 ghwqAa">
+                                            <div class="socials-wrapper sc-1y8vywq-1 hUYWvT">
+                                                <div class="link-wrapper "><a aria-label="Social link" class=" link"
+                                                        target="_blank" rel="noopener noreferrer"
+                                                        href="https://www.facebook.com/profile.php?id=61560409269176">
+                                                        <div data-name="icon-facebook" class="sc-1mehu68-0 orGZI"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                height="32" viewBox="0 0 32 32">
+                                                                <path
+                                                                    d="M12.026 6.81v4.13H9v5.051h3.026V31h6.216V15.992h4.171s.391-2.422.58-5.07h-4.728V7.469c0-.516.678-1.21 1.348-1.21H23V1.001h-4.605c-6.523 0-6.369 5.055-6.369 5.81z">
+                                                                </path>
+                                                            </svg></div>
+                                                    </a></div>
+                                                <div class="link-wrapper "><a aria-label="Social link" class=" link"
+                                                        target="_blank" rel="noopener noreferrer"
+                                                        href="https://x.com/flycoders_">
+                                                        <div data-name="icon-twitter" class="sc-1mehu68-0 orGZI"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                height="32" viewBox="0 0 32 32">
+                                                                <path
+                                                                    d="M31 6.883a12.292 12.292 0 01-3.534.969 6.178 6.178 0 002.705-3.402 12.386 12.386 0 01-3.911 1.494A6.137 6.137 0 0021.768 4a6.154 6.154 0 00-5.995 7.555 17.473 17.473 0 01-12.684-6.43 6.103 6.103 0 00-.832 3.093 6.153 6.153 0 002.737 5.122 6.162 6.162 0 01-2.788-.772v.077a6.161 6.161 0 004.936 6.035 6.225 6.225 0 01-1.622.216c-.397 0-.782-.039-1.159-.114a6.159 6.159 0 005.748 4.274 12.346 12.346 0 01-7.643 2.63c-.497 0-.986-.03-1.468-.084a17.398 17.398 0 009.433 2.769c11.321 0 17.509-9.377 17.509-17.509l-.021-.797a12.291 12.291 0 003.078-3.179z">
+                                                                </path>
+                                                            </svg></div>
+                                                    </a></div>
+                                                <div class="link-wrapper "><a aria-label="Social link" class=" link"
+                                                        target="_blank" rel="noopener noreferrer"
+                                                        href="https://www.linkedin.com/in/flycoders-sa-33491a310/">
+                                                        <div data-name="icon-linkedin" class="sc-1mehu68-0 orGZI"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                height="32" viewBox="0 0 32 32">
+                                                                <path
+                                                                    d="M29.333 18.777v9.83h-5.716v-9.172c0-2.304-.827-3.876-2.896-3.876-1.579 0-2.519 1.06-2.933 2.085-.151.366-.19.877-.19 1.389v9.574h-5.717s.077-15.534 0-17.144h5.717v2.43l-.038.055h.038v-.055c.76-1.166 2.116-2.833 5.152-2.833 3.762 0 6.582 2.45 6.582 7.716zM5.902 3.2c-1.956 0-3.235 1.279-3.235 2.961 0 1.646 1.242 2.964 3.159 2.964h.038c1.994 0 3.234-1.318 3.234-2.964C9.06 4.479 7.858 3.2 5.902 3.2zM3.006 28.608h5.715V11.464H3.006v17.144z">
+                                                                </path>
+                                                            </svg></div>
+                                                    </a></div>
+                                                <div class="link-wrapper "><a aria-label="Social link" class=" link"
+                                                        target="_blank" rel="noopener noreferrer"
+                                                        href="https://www.instagram.com/flycoders/">
+                                                        <div data-name="icon-instagram" class="sc-1mehu68-0 orGZI"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                height="32" viewBox="0 0 32 32">
+                                                                <path
+                                                                    d="M16 8.5a7.5 7.5 0 100 15 7.5 7.5 0 000-15zm0 12.188A4.695 4.695 0 0111.312 16c0-2.586 2.104-4.688 4.688-4.688s4.688 2.102 4.688 4.688A4.695 4.695 0 0116 20.688zm8.063-11.751a.999.999 0 110-1.997.999.999 0 010 1.997zM21.625 1h-11.25A9.376 9.376 0 001 10.375v11.25A9.376 9.376 0 0010.375 31h11.25A9.376 9.376 0 0031 21.625v-11.25A9.376 9.376 0 0021.625 1zm6.563 20.625a6.57 6.57 0 01-6.563 6.563h-11.25a6.57 6.57 0 01-6.563-6.563v-11.25a6.57 6.57 0 016.563-6.563h11.25a6.57 6.57 0 016.563 6.563v11.25z">
+                                                                </path>
+                                                            </svg></div>
+                                                    </a></div>
+                                                <div class="link-wrapper "><a aria-label="Social link" class=" link"
+                                                        target="_blank" rel="noopener noreferrer"
+                                                        href="https://www.youtube.com/@flycoders">
+                                                        <div data-name="icon-youtube" class="sc-1mehu68-0 orGZI"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                height="32" viewBox="0 0 32 32">
+                                                                <path
+                                                                    d="M24.769 5H7.23a6.231 6.231 0 00-6.231 6.231v8.768A6.231 6.231 0 007.23 26.23h17.539A6.231 6.231 0 0031 19.999v-8.768A6.231 6.231 0 0024.769 5zm-4.213 11.041l-8.203 3.913a.33.33 0 01-.471-.297v-8.07a.33.33 0 01.478-.294l8.203 4.157a.33.33 0 01-.007.591z">
+                                                                </path>
+                                                            </svg></div>
+                                                    </a></div>
+                                                <div class="link-wrapper "><a aria-label="Social link" class=" link"
+                                                        target="_blank" rel="noopener noreferrer"
+                                                        href="https://www.tiktok.com/@flycoders">
+                                                        <div data-name="social-tik-tok" class="sc-1mehu68-0 orGZI"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="32"
+                                                                height="32" viewBox="0 0 32 32">
+                                                                <path
+                                                                    d="M30.02 8.024a8.047 8.047 0 01-4.864-1.626A8.07 8.07 0 0121.94.024h-5.217v14.255l-.006 7.808a4.721 4.721 0 01-3.244 4.48 4.75 4.75 0 01-1.752.233 4.694 4.694 0 01-2.16-.663 4.721 4.721 0 01-2.308-3.979 4.726 4.726 0 014.732-4.791c.521 0 1.021.085 1.489.239v-5.297a10.282 10.282 0 00-1.504-.111c-2.887 0-5.587 1.2-7.517 3.362a9.785 9.785 0 00-2.469 5.904 9.773 9.773 0 002.911 7.614 10.006 10.006 0 007.074 2.896c.508 0 1.011-.038 1.504-.111a9.967 9.967 0 005.57-2.786 9.766 9.766 0 002.93-6.951l-.027-11.66a13.213 13.213 0 008.089 2.749V8.021c.001.001-.014.001-.015.001z">
+                                                                </path>
+                                                            </svg></div>
+                                                    </a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sc-mqfmd8-11 kjCIJq">
+                                        <p
+                                            class="sc-mqfmd8-8 WM_GLOBAL_secondary-font sm-word-wrap sc-15za8y8-0 jxibgk">
+                                            Flycoders © 2024 &nbsp;</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
             </div>
         </div>
-    </section>
-    <section id="pricing" class="section">
-        <div class="container">
-            <h2 class="animate__animated animate__fadeInLeft">Plano de Investimento</h2>
-            <p>Investir na sua carreira nunca foi tão acessível. Escolha o plano que melhor se adapta às suas
-                necessidades e comece hoje mesmo.</p>
-            <div class="pricing-grid">
-                <div class="pricing-item card animate__animated animate__fadeInUp">
-                    <h3>Plano Básico</h3>
-                    <p>R$ 799</p>
-                    <ul>
-                        <li>Acesso a todas as aulas</li>
-                        <li>Suporte básico</li>
-                        <li>Certificado de conclusão</li>
-                        <li>Comunidade exclusiva de alunos</li>
-                    </ul>
-                    <a href="#signup" class="btn-pricing">Inscreva-se</a>
-                </div>
-                <div class="pricing-item card animate__animated animate__fadeInUp">
-                    <h3>Plano Premium</h3>
-                    <p>R$ 1.199</p>
-                    <ul>
-                        <li>Acesso a todas as aulas</li>
-                        <li>Suporte premium</li>
-                        <li>Mentoria individual</li>
-                        <li>Acesso vitalício ao curso e suas atualizações</li>
-                        <li>Projeto completo disponível antes da conclusão do curso</li>
-                        <li>Certificado de conclusão</li>
-                        <li>Comunidade exclusiva de alunos</li>
-                    </ul>
-                    <a href="#signup" class="btn-pricing">Inscreva-se</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="signup" class="section">
-        <div class="container">
-            <h2 class="animate__animated animate__fadeInLeft">Inscreva-se Agora</h2>
-            <a href="https://wa.me/5511999991907" target="_blank" class="btn-whatsapp">Converse Conosco no WhatsApp</a>
-        </div>
-    </section>
-    <section id="about-me" class="section">
-        <div class="container">
-            <h2 class="animate__animated animate__fadeInLeft">Sobre o Instrutor</h2>
-            <div class="about-me-content animate__animated animate__fadeInUp">
-                <img src="https://media.licdn.com/dms/image/D4E03AQGd3OF1gLgdlg/profile-displayphoto-shrink_800_800/0/1692904487955?e=1722470400&v=beta&t=uONmzLXWl8-aeKdd_p9y07vmho5rtP6Saz6AcHeOC0U"
-                    alt="Lucas Medina Cavalcanti" class="avatar-large">
-                <div class="about-me-text">
-                    <p><strong>Lucas Medina Cavalcanti, 31 anos</strong></p>
-                    <p>Sou um desenvolvedor experiente e analítico, comprometido com a excelência, qualidade e
-                        cumprimento de prazos. Com mais de uma década de experiência em desenvolvimento de aplicações
-                        Java, dos quais os últimos seis anos foram dedicados ao desenvolvimento fullstack, com Angular.
-                        Tenho ampla experiência em uma variedade de bibliotecas, ferramentas e metodologias, tendo
-                        trabalhado em diversos setores de mercado, desde automobilístico, seguros, financeiro até
-                        varejo.</p>
-                    <p>Minha trajetória profissional abrange desde sistemas legados até a implementação de soluções
-                        modernas, como microserviços, computação em nuvem e microfrontend. Além disso, já assumi o
-                        desafio e a responsabilidade de liderar uma equipe de vinte desenvolvedores, demonstrando
-                        habilidades de liderança e gestão eficazes.</p>
-                    <p>Estou constantemente atualizado com as últimas tecnologias, tanto dentro quanto fora do ambiente
-                        de trabalho, e mantenho uma postura de curiosidade constante para aprimorar minhas habilidades.
-                        Sou uma pessoa empenhada, resiliente e que não se acomoda, sempre buscando novos desafios e
-                        oportunidades de crescimento profissional. Com uma formação robusta e certificações
-                        reconhecidas, estou preparado para ajudar você a alcançar seus objetivos na carreira de
-                        desenvolvimento.</p>
-                    <p><strong>Experiência Profissional:</strong></p>
-                    <ul>
-                        <li>Iniciei profissionalmente em 2012 e desde então nunca mais parei. Trabalhei em diversos
-                            setores do mercado, como financeiro, seguradoras, fintechs, eccommerce, possuindo assim uma
-                            ampla bagagem de diversos tipos de arquitetura, necessidades, e sistemas.</li>
-                    </ul>
-                    <p><strong>Formação Acadêmica:</strong></p>
-                    <ul>
-                        <li>MBA: Desenvolvimento de aplicações java com SOA e IOT, FIAP - São Paulo, SP</li>
-                        <li>Técnologo: Análise e Desenvolvimento de Sistemas, Faculdade de Tecnologia Termomecanica -
-                            São Bernardo do Campo</li>
-                    </ul>
-                    <p><strong>Certificados:</strong></p>
-                    <ul>
-                        <li>Exam 480: Programming in HTML5 with JavaScript and CSS3 (Microsoft)</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Fullstack Pro. Todos os direitos reservados.</p>
-        </div>
-    </footer>
+    </div>
     <script src="./script.js"></script>
 </body>
+<script src="./icons.js" async></script>
 
 </html>
