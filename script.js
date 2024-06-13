@@ -35,3 +35,24 @@ setInterval(updateCountdown, 1000);
 
 // Inicialize a contagem regressiva
 updateCountdown();
+
+document.getElementById('mc-embedded-subscribe-form').addEventListener('submit', function (event) {
+    event.preventDefault(); // Impede o envio padrão do formulário e o redirecionamento
+
+    var form = this; // Referência ao formulário
+    var url = form.action + '&' + new URLSearchParams(new FormData(form)).toString();
+    var script = document.createElement('script');
+    script.src = url;
+
+    script.onload = function () {
+        document.getElementById('success-msge').style.display = 'block'; // Exibe a mensagem de sucesso
+        form.reset(); // Reseta o formulário após o envio bem-sucedido
+    };
+
+    script.onerror = function () {
+        document.getElementById('success-msg').style.display = 'block'; // Exibe a mensagem de sucesso
+        form.reset(); // Reseta o formulário após o envio bem-sucedido
+    };
+
+    document.body.appendChild(script); // Adiciona o script ao DOM para executar a solicitação JSONP
+});
