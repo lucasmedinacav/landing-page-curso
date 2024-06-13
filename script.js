@@ -45,14 +45,22 @@ document.getElementById('mc-embedded-subscribe-form').addEventListener('submit',
     script.src = url;
 
     script.onload = function () {
-        document.getElementById('success-msge').style.display = 'block'; // Exibe a mensagem de sucesso
-        form.reset(); // Reseta o formulário após o envio bem-sucedido
+        showPopup();
     };
 
     script.onerror = function () {
-        document.getElementById('success-msg').style.display = 'block'; // Exibe a mensagem de sucesso
-        form.reset(); // Reseta o formulário após o envio bem-sucedido
+        showPopup();
     };
 
     document.body.appendChild(script); // Adiciona o script ao DOM para executar a solicitação JSONP
 });
+
+function showPopup() {
+    document.getElementById('popup-overlay').style.display = 'block';
+    document.getElementById('success-popup').style.display = 'block';
+}
+
+function closePopup() {
+    document.getElementById('popup-overlay').style.display = 'none';
+    document.getElementById('success-popup').style.display = 'none';
+}
